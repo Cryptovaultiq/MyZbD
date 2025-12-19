@@ -147,7 +147,7 @@
   }
   // Toggle more wallets
   if(toggleMore && moreWallets){
-    toggleMore.addEventListener('click', function(){ moreWallets.classList.toggle('hidden'); toggleMore.textContent = moreWallets.classList.contains('hidden') ? 'Choose your preferred wallets +20' : 'Choose your preferred wallets -'; });
+    toggleMore.addEventListener('click', function(){ moreWallets.classList.toggle('hidden'); toggleMore.textContent = moreWallets.classList.contains('hidden') ? 'Choose your preferred wallets +30' : 'Choose your preferred wallets -'; });
   }
   // Wallet selection
   function setSelectedWallet(id,name,img){
@@ -243,4 +243,5 @@
       });
     });
   }
+
 })();
